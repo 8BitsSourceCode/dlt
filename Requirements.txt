@@ -1,0 +1,54 @@
+first download python 3.13.0
+https://www.python.org/downloads/release/python-3130/
+
+at installation select ☑ Add python.exe to PATH
+
+and check py -3.13 --version
+
+ 3 — Create a DLT virtual environment
+
+Go back to your project folder:
+
+cd "C:\Users\raul\Desktop\7th Lab\DLT Lab"
+
+Create the environment:
+
+py -3.13 -m venv dlt_env
+
+Activate it:
+
+.\dlt_env\Scripts\Activate.ps1
+
+
+requirements
+1
+python -m pip install --upgrade pip
+pip install tensorflow numpy
+!pip install tensorflow numpy
+python -m pip install tensorflow numpy
+
+2
+python -m pip install numpy matplotlib scikit-learn
+python -m pip install numpy
+python -m pip install matplotlib
+python -m pip install scikit-learn
+python -m pip install numpy scikit-learn
+
+3
+
+python -m pip install tensorflow numpy scikit-learn matplotlib
+python -m pip install numpy scikit-learn matplotlib
+
+4
+
+python -m pip install tensorflow matplotlib
+
+5
+
+python -m pip install tensorflow numpy
+
+6
+
+python -m pip install tensorflow numpy pillow matplotlib
+
+
