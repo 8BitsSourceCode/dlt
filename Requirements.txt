@@ -47,8 +47,62 @@ python -m pip install tensorflow matplotlib
 
 python -m pip install tensorflow numpy
 
+mkdir data\train\cats
+mkdir data\train\dogs
+
+Test-Path "data\train"
+Get-ChildItem "data\train"
+
+C:\7th Lab\DLT Lab\
+│
+├── dlt_env\
+│
+├── 5_CNN_Model_to_Classify_Multi_Category_JPG_Images.py
+│
+├── new_image.jpg
+│
+└── data\
+    └── train\
+        ├── cats\
+        │   ├── cat1.jpg
+        │   ├── cat2.jpg
+        │   └── ...
+        │
+        └── dogs\
+            ├── dog1.jpg
+            ├── dog2.jpg
+            └── ...
+
+
+
 6
 
 python -m pip install tensorflow numpy pillow matplotlib
+
+
+6
+mkdir data\tiff_images\forest
+mkdir data\tiff_images\city
+mkdir data\tiff_images\water
+
+Get-ChildItem "data\tiff_images"
+Get-ChildItem "data\tiff_images\forest"
+
+data/
+└── tiff_images/
+    ├── forest/
+    │   ├── forest1.tif
+    │   ├── forest2.tif
+    │   └── forest3.tiff
+    │
+    ├── city/
+    │   ├── city1.tif
+    │   ├── city2.tif
+    │   └── city3.tiff
+    │
+    └── water/
+        ├── water1.tif
+        ├── water2.tif
+        └── water3.tiff
 
 
